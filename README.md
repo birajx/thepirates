@@ -49,11 +49,11 @@
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+✔️ Feature 1;\
+:heavy_check_mark: Feature 2\
+:heavy_cross_mark: Feature 3
 
-## :rocket: Technologies ##
+## 🚀 Technologies ##
 
 The following tools were used in this project:
 
@@ -61,11 +61,11 @@ The following tools were used in this project:
 - [Express.js](https://expressjs.com)
 
 
-## :white_check_mark: Requirements ##
+## ✅ Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## 🏁 Starting ##
 
 ```bash
 # Clone this project
@@ -83,12 +83,12 @@ $ pnpm start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## :memo: License ##
+## 📝 License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/birajx" target="_blank">birajx</a>
+Made with ❤️ by <a href="https://github.com/birajx" target="_blank">birajx</a>
 
 &#xa0;
 
