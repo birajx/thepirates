@@ -43,15 +43,15 @@
 
 <br>
 
-## :dart: About ##
+## 🎯 About ##
 
 
 
-## :sparkles: Features ##
+## ✨ Features ##
 
-✔️ Feature 1;\
-:heavy_check_mark: Feature 2\
-:heavy_cross_mark: Feature 3
+✔️ Coming Soon!\
+✔️ Coming Soon\
+✔️ Comming Soon
 
 ## 🚀 Technologies ##
 
