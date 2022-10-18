@@ -1,11 +1,11 @@
 <div align="center" id="top"> 
-  <img src="./.github/icon.png" width=100 alt="The Pirates" />
+  <!-- <img src="./.github/logo.png" width=100 alt="The Pirates" /> -->
+  <img src="./.github/banner.png" />
   &#xa0;
 
-  <a href="https://dapirates.xyz">Demo</a>
 </div>
 
-<h1 align="center">The Pirates</h1>
+<h1 align="center"><a href="https://dapirates.xyz">Demo</a></h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/birajx/thepirates?color=56BEB8">
