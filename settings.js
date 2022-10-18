@@ -1,3 +1,4 @@
+require('dotenv').config()
 module.exports = {
   mode: "production",
   web: {
@@ -17,11 +18,11 @@ module.exports = {
 
   },
   discord: {
-    token: "",
-    id: "",
-    secret: "",
-    api: "",
-    server: "",
+    token: process.env.discord_token,
+    id: process.env.discord_id,
+    secret: process.env.discord_secret,
+    api: process.env.api,
+    server: process.env.server_id,
     dev: ["biraj", "Gaurav", "GTMSudarshan"],
   },
 };

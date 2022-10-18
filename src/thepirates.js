@@ -1,18 +1,10 @@
-const express = require("express");
-const app = (module.exports = express());
-
-// Setting AKA Config
+ // Setting AKA Configuration
 const config = require("../settings");
 
-// if (config.mode === "production") {
-//   console.log("\u001b[31;1m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
-//   console.log("\u001b[31;1m┃\u001b[33;1m Copyright (c) 2018-2022 Neppixel. All rights reserved.\u001b[31;1m┃");
-//   console.group("\u001b[31;1m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\u001b[0m");
-// } else {
-//   console.log( "\u001b[31;1m┏━━━━━━━━━━━━━━━━━━━ DEVELOPMENT MODE ━━━━━━━━━━━━━━━━━━┓");
-//   console.log("\u001b[31;1m┃\u001b[33;1m Copyright (c) 2018-2022 Neppixel. All rights reserved.\u001b[31;1m┃");
-//   console.group("\x1b[31m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\u001b[0m");
-// }
+// Packages Lol
+const express = require("express");
+const app = (module.exports = express());
+const bot = require("./discord/bot");
 
 // Import Routers
 const indexRouter = require("./routes/index");
