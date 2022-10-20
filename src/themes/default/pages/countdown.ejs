@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+    <title><%= title %> :<%= description %></title>
+    <link rel="stylesheet" href="css/countdown.css" />
+  </head>
+
+  <body>
+    <header><%- include('../partials/header'); %></header>
+    <div class="container">
+      <h1 class="countdown">Countdown</h1>
+    </div>
+    <div class="timer">
+      <div class="countdown-container">
+        <div class="time day">404</div>
+        <span class="text">Days</span>
+      </div>
+      <div class="countdown-container">
+        <div class="time hour">404</div>
+        <span class="text">Hours</span>
+      </div>
+      <div class="countdown-container">
+        <div class="time minute">404</div>
+        <span class="text">Minutes</span>
+      </div>
+      <div class="countdown-container">
+        <div class="time seconds">404</div>
+        <span class="text">Seconds</span>
+      </div>
+    </div>
+    <script src="js/countdown.js"></script>
+  </body>
+</html>

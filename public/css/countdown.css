@@ -1,0 +1,38 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+  background: url(img/countdown.jpg);
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins";
+  font-size: 10px;
+  overflow: hidden;
+}
+.container {
+  z-index: 99999999;
+}
+.countdown {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 25px;
+}
+.countdown-container span {
+  font-size: 30px;
+}
+.timer {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.time {
+  font-weight: bold;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  border: 4px solid black;
+  border-radius: 1rem;
+  margin: 0 1rem;
+  backdrop-filter: blur(10px);
+}

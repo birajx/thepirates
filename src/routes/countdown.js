@@ -4,15 +4,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render("pages/dl", {
-    title: config.web.pages.dl.title,
-    description: config.web.pages.dl.description
+  res.render("pages/countdown", {
+    title: config.web.pages.countdown.title,
+    description: config.web.pages.countdown.description
   });
 });
-
-router.get('/github', function(req, res, next) {
-   res.redirect('https://github.com');
-}
-)
 
 module.exports = router;

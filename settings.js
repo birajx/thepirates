@@ -5,6 +5,7 @@ module.exports = {
     title: "The Pirates",
     url: "http://localhost",
     port: "3000",
+    themes: "default",
     pages: {
       home: {
         title: "The Pirates",
@@ -14,6 +15,10 @@ module.exports = {
         title: "The Pirates | Download",
         description: "",
       },
+      countdown: {
+        title: "The Pirates | Coming Soon!",
+        description: "Idk when lol"
+      }
     },
 
   },
